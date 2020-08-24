@@ -1,0 +1,5 @@
+    class HUMVEE : Vehicle
+    {
+        public string weaponPlatform { get; set; }
+
+    }
