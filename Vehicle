@@ -1,0 +1,38 @@
+class Vehicle
+    {
+        public double topSpeed { get; set; }
+        public int personnelCapacity { get; set; }
+        public string weaponsystem { get; set; }
+
+        public void StartEngine()
+        {
+            Console.WriteLine("Starting Engine...Engine On");
+        }
+
+        public void StopEngine()
+        {
+            Console.WriteLine("Stopping Engine...Engine Off");
+        }
+
+        public void Accelerate()
+        {
+            Console.WriteLine("Accelerating...");
+        }
+
+        public void Decelerate()
+        {
+            Console.WriteLine("Decelerating...");
+        }
+
+        public void Brake()
+        {
+            Console.WriteLine("Braking...");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("Stopping...Stopped");
+        }
+
+
+    }
