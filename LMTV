@@ -1,0 +1,5 @@
+    class LMTV : Vehicle
+    {
+        public string payloadCapacity { get; set; }
+       
+    }
